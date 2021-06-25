@@ -1,0 +1,95 @@
+*{
+	margin:0;
+	padding:0;
+}
+body{
+	font-family:agency fb;
+	font-variant:uppercase;
+	background:black;
+	color:white;
+	text-transform:uppercase;
+}
+a{
+	color:inherit;
+	text-decoration:none;
+}
+header{
+	width:100%;
+	position:fixed;
+	padding:10px;
+	display:flex;
+	justify-content:space-between;
+	align-content:center;
+	align-items:center;
+	
+}
+.brand{
+	width:50px;
+	border-radius:50%;
+	
+}
+.navlinks{
+	margin-right:40px;
+	padding:5px;
+	background:black;
+}
+.navlinks a{
+	padding:0px 10px;
+}
+.profile{
+	height:100vh;
+	font-size:2em;
+	padding:10px;
+	display:flex;
+	justify-content:flex-start;
+	align-content:center;
+	align-items:center;
+	background:url("../newfolder/img5.jpg");
+	background-attachment: fixed;
+    background-size: cover;
+    background-position: center;
+	
+}
+.profile img{
+	width:500px;
+	box-shadow:0px 0px 40px black inset;
+	transform-x:scale(0.99);
+}
+.profile-items{padding:20px;
+border-radius:0px 20px 20px 0px;
+	background:linear-gradient(127deg, #03a9f4 40%, #00bcd46e 40.3%);
+}
+.profile-items h1{
+	font-size:2.5em;
+	
+}
+.profile-items h1 small{
+	display:none;
+	
+}
+.profile-items p{
+	font-size:1em;
+	background:#2196f3;
+	width:fit-content;
+
+	padding:5px;
+	font-weight:bolder;
+	
+}
+.profile-items a{
+	font-size:0.5em;
+	color:green;
+	background:white;
+	padding:10px;
+	position:relative;
+	top:25px;
+	border-radius:10px;
+	box-shadow:
+	 0px 0px 30px black;
+	font-family:century gothic;
+}
+@media only screen and (max-width: 25rem) {
+  .profile{
+	  font-size:1rem;
+  }
+}
